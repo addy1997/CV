@@ -1,0 +1,74 @@
+% Author: Adwait Naik
+
+\documentclass[11pt,a4paper,roman]{moderncv}      
+\usepackage[english]{babel}
+\usepackage{ragged2e}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}   
+
+\moderncvstyle{classic}                            
+\moderncvcolor{green} % Bullet point color                          
+
+% Page margins
+\usepackage[scale=0.8]{geometry} % Page margins
+
+% Your Information, please revise
+\name{Adwait}{Naik}
+\address{ 3, 26J, Winton Drive}{Glasgow-G12 0QA}
+\phone[mobile]{07824070210}                   
+\email{2613494N@student.gla.ac.uk}             
+                   
+\begin{document}
+
+% Insert Olin Logo
+\begin{minipage}[t]{\textwidth}
+\includegraphics[width=0.40\textwidth]{UofG.png}
+\end{minipage}
+
+
+\recipient{Ocado Group \\ London, England, United Kingdom \vspace{2pt}\\
+Dear Hiring Manager,}{}
+\opening{\vspace*{-2em}}
+\closing{Sincerely,}{\vspace*{-1em}}
+\makelettertitle
+
+\justifying
+% Opening Paragraph: STATE YOUR REASON FOR WRITING - Introduction of yourself and the purpose of your letter: who you are and why you are writing. State what position you are applying for and why. Briefly mention how you learned of this opportunity or how the employer’s name was obtained and state what you know about the company/position that intrigues you. Explain why you are an ideal candidate and interested in this particular company. (Use the company’s specific name).
+
+% Please revise
+I am writing to express my interest in the role of \textbf{Software Engineer - Robotic Simulation}. 
+
+I believe that my experience and skills align with the job requirements well, as I have worked in various positions as an intern and engineer with a background in software, robotics, and machine learning. The fast-paced environment, challenging tasks, and the opportunity to work on something new piqued my interest in this role.\\
+
+% Middle: EMPHASIZE YOUR STRONGEST QUALIFICATIONS – BASED ON THEIR NEEDS - An overview of your competencies (talents, knowledge, and skills) and unique strengths, stated in terms of the unique value you bring to the company. Support what you say by noting the positive results you achieved in internships, previous work, or educational contexts. Map your competencies to the requirements/needs of the specific job of interest or organization. Sell yourself.
+
+During my studies and early work experience, I acquired a valuable understanding of the robotics industry and developed essential skills in problem-solving, innovation, and critical thinking. \\
+
+In the past, at \textbf{\href{https://www.hticiitm.org/}{HTIC, IIT-Madras}}, as a robotics intern, I developed a motion planning algorithm for a robotic arm designed to assist in \testbf{non-invasive spine surgery}.  I was instrumental in building the baseline algorithm on ROS(Robot Operating System) for motion planning, real-time data acquisition, and \textit{TCP calibration} of the robot using \textbf{C++ and Python}.\\
+
+I have also spent a brief stint as an intern at \textbf{KUKA Robotics}, India where I was fortunate to work on a variety of \textbf{KUKA's} famous robots like \textit{KR3}, \textit{KR6}, etc.\\
+
+The following is a snapshot of my broader technical skills in domains of my expertise:
+
+\begin{itemsize}
+
+\item \textbf{Machine Learning -} developed and deployed machine learning models based n {LSTM, RNN} architectures.\\
+
+\item \textbf{Robotics -} developed various motion planning algorithms and testing in dynamic environments.\\
+
+\item \textbf{Computer Vision -} worked with GAN(Generative Adversarial Networks) to perform object detection, image segmentation, and 3D reconstruction.\\
+
+\end{itemsize}
+
+Also, I have received outstanding feedback for my abilities and enthusiasm, and I am reliable in following directions and exceeding expectations. 
+
+% Closing Paragraph: STATE EXPECTED ACTION - Thank the reader of your letter, state how you may be contacted (include both phone number and email address), and note what you will do to follow-up. Remember to state when you will be calling (approximately one week after you send the letter).
+Currently, I am pursuing my master's in \textbf{Robotics (with a concentration in AI)} at University of Glasgow. \vspace{5} \\
+My resume is enclosed, and will give you further insight into my skill set and experience. \vspace{5} \\
+Thank you for considering my candidacy for this role. I look forward to hearing from you.
+
+
+\vspace{0.5cm}
+\makeletterclosing
+\end{document}
